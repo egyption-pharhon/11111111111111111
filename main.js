@@ -6,7 +6,7 @@ function openNavList(){
 }
 
 // add items in cart
-
+document.addEventListener('DOMContentLoaded', () => {
 let allShopData ;
 let allFeaturedData ;
 let allAddressesData ;
@@ -46,7 +46,7 @@ function cartElement(){
 		`
 	}
 }
-
+})
 
 
 

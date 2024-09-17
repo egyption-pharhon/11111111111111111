@@ -6,12 +6,11 @@ function openNavList(){
 }
 
 // add items in cart
-document.addEventListener('DOMContentLoaded', () => {
 let allShopData ;
 let allFeaturedData ;
 let allAddressesData ;
 let allShoesData ;
-
+document.addEventListener('DOMContentLoaded', () => {
 let  elementInCart = document.querySelector('.element-in-cart')
 let cartProduct =[]
 function addElement(id){

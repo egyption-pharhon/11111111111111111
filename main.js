@@ -19,9 +19,8 @@ function addElement(id){
 	cartElement()
 }
 function cartElement(){
-	let product = ""
 	for (let index = 0; index < cartProduct.length; index++) {
-		product +=`
+		elementInCart.innerHTML +=`
 			<tr>
 				<td>
 					<a href="cart.html">
